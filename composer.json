@@ -1,0 +1,27 @@
+{
+    "name": "limeberry/forms",
+    "description": "Form classes served as part of the limeberry framework. You can simply create forms and attach a model to that form to manage user input.",
+    "keywords": [
+        "limeberry",
+        "php", 
+        "framework", 
+        "forms",
+        "form-elements",
+        "user-input"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sinan SALIH",
+            "email": "snnslh@outlook.com",
+            "homepage": "https://limeberry.github.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {"limeberry\\forms\\": "src/limeberry/forms/"}
+    }
+}
